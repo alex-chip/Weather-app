@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Weather App</title>
+</head>
+<body>
+	<div class="Weather fadeInDown">
+		<h2 class="Weather__title">Weather App</h2>
+		<div class="Weather__container">
+			<div class="Weather__card">
+				<h1 id="weather-location" class="Weather__cityName"></h1>
+				<p class="Weather__description" id="weather-description"></p>
+				<p id="weather-string" class="Weather__clima"></p>
+				<label class="Weather__humidity" id="weather-humidity"></label>
+				<label id="weather-wind" class="Weather__wind"></label>
+			</div>
+			<div class="Weather__card">
+				<form class="Weather__form" id="w-form">
+					<input type="text" id="city" class="Weather__form--city" placeholder="City" autofocus>
+					<input type="text" id="countryCode" class="Weather__form--country" placeholder="Country Code ">
+					<button class="Weather__form--button" id="w-change-btn">Save Changes</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
